@@ -56,6 +56,9 @@ enum WeatherEndpoint: Endpoint {
     
 }
 
+
+//api.openweathermap.org/data/2.5/forecast?id=4192205&APPID=6eadc0006d26a8c87a586e5fd0a56b0e
+
 private enum  APIConstents {
     
     static let weatherAPIEndpointUrl = "http://api.openweathermap.org"

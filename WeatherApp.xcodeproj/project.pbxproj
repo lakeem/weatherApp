@@ -19,6 +19,7 @@
 		0B80923020B192080096C5F3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80922F20B192080096C5F3 /* Endpoint.swift */; };
 		0B80923220B1965C0096C5F3 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80923120B1965C0096C5F3 /* WeatherAPIClient.swift */; };
 		0B80923420B1E9F30096C5F3 /* WeatherCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B80923320B1E9F30096C5F3 /* WeatherCellView.swift */; };
+		0BAEB45120B3117100A7F29D /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BAEB45020B3117100A7F29D /* city.list.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0B80922F20B192080096C5F3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		0B80923120B1965C0096C5F3 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
 		0B80923320B1E9F30096C5F3 /* WeatherCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellView.swift; sourceTree = "<group>"; };
+		0BAEB45020B3117100A7F29D /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				0B80922D20B18AEB0096C5F3 /* APIClient.swift */,
 				0B80922F20B192080096C5F3 /* Endpoint.swift */,
 				0B80923120B1965C0096C5F3 /* WeatherAPIClient.swift */,
+				0BAEB45020B3117100A7F29D /* city.list.json */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B80921120B182790096C5F3 /* LaunchScreen.storyboard in Resources */,
+				0BAEB45120B3117100A7F29D /* city.list.json in Resources */,
 				0B80920E20B182790096C5F3 /* Assets.xcassets in Resources */,
 				0B80920920B182790096C5F3 /* Main.storyboard in Resources */,
 			);
