@@ -30,9 +30,7 @@ extension Endpoint {
 
 //TODO: update with new weather api
 // new key 6eadc0006d26a8c87a586e5fd0a56b0e
-// http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}
 
-// example api.openweathermap.org/data/2.5/forecast?id=524901&APPID=1111111111
 
 enum WeatherEndpoint: Endpoint {
     case tenDayForecast(city: String, state: String)
@@ -44,7 +42,7 @@ enum WeatherEndpoint: Endpoint {
     var path: String {
         switch self {
         case .tenDayForecast(let city, let state):
-            return "" //TODO: Find a new weather api
+            return "" //TODO: change to single day call with new service
             
         }
     }
