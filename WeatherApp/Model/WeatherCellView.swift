@@ -2,7 +2,7 @@
 //  WeatherCellView.swift
 //  WeatherApp
 //
-//  Created by lakeem muhammad on 5/20/18.
+//  Created by lakeem muhammad on 1/20/18.
 //  Copyright © 2018 lakeem muhammad. All rights reserved.
 //
 
@@ -23,6 +23,7 @@ struct WeatherCellVM{
         DispatchQueue.main.async {
             //update the view with down loaded image.
             //TODO: add a cache to deal with some of this.
+            //TODO: add cache to avoid api call limit along with refresh!
             completion(image)
         }
     }
